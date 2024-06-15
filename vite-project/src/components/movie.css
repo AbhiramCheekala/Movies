@@ -1,0 +1,32 @@
+.form-container {
+    margin: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.form-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: black; /* Set background color to red */
+    color: white; /* Set text color to white */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Add top padding */
+}
+
+.form-container button:hover {
+    background-color: #958181; /* Darken the color on hover */
+}

@@ -1,0 +1,93 @@
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-title {
+  margin: 0;
+  font-size: 24px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right .form-container {
+  margin-right: 20px; /* Adjust the margin-right as needed */
+}
+
+
+.carousel-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.movie-poster {
+  width: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.movie-info {
+  flex: 1;
+}
+
+.movie-info h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.movie-info p {
+  margin: 5px 0;
+}
+
+.trailer-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.trailer-link:hover {
+  background-color: #0056b3;
+}
+
+
+h6{
+  padding-top: 10px;
+  padding-left: 5px;
+}
